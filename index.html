@@ -1,0 +1,341 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>津叶云 — 套餐、使用说明与常见问题</title><meta name="description" content="津叶云官方说明页：以说明书的方式列出套餐档位、流量与设备配额、开通步骤、客户端配置思路与常见问题，信息以本页为准。"><meta name="keywords" content="津叶云, 套餐价格, 使用说明, 常见问题"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-a2ddb51cb9.smauo.cn/"><meta property="og:type" content="website"><meta property="og:title" content="津叶云 — 套餐、使用说明与常见问题"><meta property="og:description" content="津叶云官方说明页：以说明书的方式列出套餐档位、流量与设备配额、开通步骤、客户端配置思路与常见问题，信息以本页为准。"><meta property="og:url" content="https://p-a2ddb51cb9.smauo.cn/"><meta property="og:site_name" content="津叶云"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-a2ddb51cb9.smauo.cn/", "name": "津叶云 — 套餐、使用说明与常见问题", "description": "津叶云官方说明页：以说明书的方式列出套餐档位、流量与设备配额、开通步骤、客户端配置思路与常见问题，信息以本页为准。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="c417552455adb746dacf969f:b540e689bc05e8a4b244d159ef48746f66fb15abbf42695a82126b2f5c0039ce:d2d6d03ec0287ffba6cd"></head><body id="top"><style>
+:root{--deep:#0b2239;--deep-2:#102c49;--deep-3:#16395e;--ink:#0e2438;--paper:#f6f4ee;--amber:#e8a33d;--amber-2:#c9821f;--line:#d8d2c4;--mut:#5a6b7c}
+*{margin:0;padding:0;box-sizing:border-box}
+html{}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--paper);color:var(--ink);line-height:1.75;font-size:16px}
+a{color:var(--deep-3);text-decoration:none;border-bottom:1px solid var(--amber)}
+a:hover{color:var(--amber-2)}
+/* 顶部细横条导航 */
+.topbar{position:sticky;top:0;z-index:20;background:var(--deep);border-bottom:2px solid var(--amber)}
+.topbar .inner{max-width:1180px;margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:28px;height:46px}
+.topbar .brandmark{color:#fff;font-weight:700;letter-spacing:2px;font-size:15px;border-bottom:none}
+.topbar .brandmark em{color:var(--amber);font-style:normal}
+.topbar nav{display:flex;gap:22px;font-size:13.5px}
+.topbar nav a{color:#c9d6e4;border-bottom:none}
+.topbar nav a:hover{color:var(--amber)}
+@media(max-width:720px){
+  .topbar .inner{gap:14px;overflow-x:auto}
+  .topbar nav{gap:14px;white-space:nowrap}
+}
+/* 首屏：左文右信息面板的不对称分栏 */
+.hero{background:var(--deep);color:#e8eef5;border-bottom:6px solid var(--amber)}
+.hero .inner{max-width:1180px;margin:0 auto;padding:72px 24px 80px;display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:start}
+.hero .kicker{display:inline-block;font-size:12.5px;letter-spacing:3px;color:var(--amber);border:1px solid var(--amber);padding:4px 12px;margin-bottom:26px}
+.hero h1{font-size:clamp(40px,6vw,64px);line-height:1.12;font-weight:800;color:#fff;letter-spacing:1px;margin-bottom:22px}
+.hero h1 span{color:var(--amber)}
+.hero .lead{max-width:34em;color:#b9c9da;font-size:17px;margin-bottom:34px}
+.hero .cta{display:flex;gap:18px;flex-wrap:wrap}
+.hero .cta a{border-bottom:none;padding:12px 26px;font-size:14.5px;letter-spacing:1px}
+.hero .cta .primary{background:var(--amber);color:var(--deep);font-weight:700}
+.hero .cta .primary:hover{background:#f2b45c;color:var(--deep)}
+.hero .cta .ghost{border:1px solid #3d5a7a;color:#c9d6e4}
+.hero .cta .ghost:hover{border-color:var(--amber);color:var(--amber)}
+/* 右侧信息面板 */
+.panel{background:var(--deep-2);border-top:4px solid var(--amber);padding:30px 28px 26px}
+.panel h2{font-size:13px;letter-spacing:3px;color:var(--amber);font-weight:700;margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid #24466b}
+.panel dl{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;font-size:14px}
+.panel dt{color:#7e93a9;white-space:nowrap}
+.panel dd{color:#e8eef5}
+.panel .note{margin-top:22px;padding-top:16px;border-top:1px dashed #24466b;font-size:12.5px;color:#7e93a9}
+@media(max-width:880px){
+  .hero .inner{grid-template-columns:1fr;gap:40px;padding:56px 24px 64px}
+}
+/* 主体 */
+main{max-width:1180px;margin:0 auto;padding:0 24px}
+section{padding:72px 0 8px}
+.sec-head{margin-bottom:44px}
+.sec-head .no{font-size:12.5px;letter-spacing:3px;color:var(--amber-2);font-weight:700;display:block;margin-bottom:8px}
+.sec-head h2{font-size:clamp(26px,3.4vw,34px);font-weight:800;letter-spacing:1px}
+.sec-head p{margin-top:12px;color:var(--mut);max-width:44em;font-size:15px}
+/* 卡片：无边框仅靠留白分隔 */
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:56px}
+.cols article h3{font-size:17px;font-weight:700;margin-bottom:12px;padding-bottom:10px;border-bottom:2px solid var(--amber);display:inline-block}
+.cols article p{font-size:14.5px;color:#3d4f61}
+@media(max-width:880px){.cols{grid-template-columns:1fr;gap:36px}}
+/* 套餐：阶梯式递进排列 */
+.stairs{display:flex;flex-direction:column;gap:0;margin-top:8px}
+.tier{display:grid;grid-template-columns:64px 1.1fr 2fr auto;gap:32px;align-items:center;padding:34px 0;border-bottom:1px solid var(--line)}
+.tier:first-child{border-top:1px solid var(--line)}
+.tier .step{font-size:34px;font-weight:800;color:var(--line);line-height:1}
+.tier:nth-child(2) .step{color:var(--amber)}
+.tier:nth-child(3) .step{color:var(--deep-3)}
+.tier h3{font-size:20px;font-weight:800;letter-spacing:1px}
+.tier .price{color:var(--amber-2);font-weight:700;font-size:15px;margin-top:4px}
+.tier .price small{display:block;color:var(--mut);font-weight:400;font-size:12.5px}
+.tier ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:6px 28px;font-size:14px;color:#3d4f61}
+.tier ul li::before{content:"—";color:var(--amber);margin-right:8px}
+.tier .tag{font-size:12px;letter-spacing:2px;color:#fff;background:var(--deep-3);padding:5px 12px;white-space:nowrap}
+.tier:nth-child(2) .tag{background:var(--amber);color:var(--deep);font-weight:700}
+.tier .none{font-size:12px;color:var(--mut)}
+@media(max-width:880px){
+  .tier{grid-template-columns:1fr;gap:14px;padding:28px 0}
+  .tier ul{grid-template-columns:1fr}
+  .tier .step{font-size:26px}
+}
+/* 使用说明 */
+.steps{counter-reset:s;display:flex;flex-direction:column;gap:0}
+.steps article{display:grid;grid-template-columns:80px 1fr;gap:28px;padding:28px 0;border-bottom:1px solid var(--line)}
+.steps article:first-child{border-top:1px solid var(--line)}
+.steps article::before{counter-increment:s;content:"0" counter(s);font-size:15px;font-weight:800;color:var(--amber-2);letter-spacing:2px;padding-top:4px}
+.steps h3{font-size:16.5px;font-weight:700;margin-bottom:6px}
+.steps p{font-size:14.5px;color:#3d4f61;max-width:52em}
+/* 客户端 */
+.clients{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.clients article h3{font-size:17px;font-weight:700;margin-bottom:12px;padding-bottom:10px;border-bottom:2px solid var(--amber);display:inline-block}
+.clients p{font-size:14.5px;color:#3d4f61;margin-bottom:10px}
+.clients .hint{font-size:13px;color:var(--mut)}
+@media(max-width:880px){.clients{grid-template-columns:1fr;gap:36px}}
+/* FAQ：按主题分组 */
+.faq-group{margin-bottom:52px}
+.faq-group>h3{font-size:15px;letter-spacing:3px;color:var(--amber-2);font-weight:800;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid var(--deep)}
+.faq-group article{padding:20px 0;border-bottom:1px solid var(--line)}
+.faq-group article:last-child{border-bottom:none}
+.faq-group h4{font-size:15.5px;font-weight:700;margin-bottom:8px}
+.faq-group h4::before{content:"问";color:#fff;background:var(--deep-3);font-size:11px;padding:3px 7px;margin-right:12px;letter-spacing:1px;vertical-align:2px}
+.faq-group article p{font-size:14.5px;color:#3d4f61;padding-left:44px}
+/* 页脚 */
+footer{margin-top:88px;background:var(--deep);color:#7e93a9;border-top:6px solid var(--amber)}
+footer .inner{max-width:1180px;margin:0 auto;padding:36px 24px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:13px}
+footer .fb{color:#e8eef5;font-weight:700;letter-spacing:2px}
+footer .fb em{color:var(--amber);font-style:normal}
+</style><header class="topbar">
+  <div class="inner">
+    <a class="brandmark" href="#top">津叶<em>云</em></a>
+    <nav>
+      <a href="#about">服务说明</a>
+      <a href="#plans">套餐档位</a>
+      <a href="#guide">使用说明</a>
+      <a href="#clients">客户端</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero" id="top">
+  <div class="inner">
+    <div>
+      <span class="kicker">SERVICE MANUAL · 服务手册</span>
+      <h1>津叶<span>云</span><br>一份写清楚的服务说明</h1>
+      <p class="lead">本页是津叶云的官方说明文档。套餐档位、流量配额、设备数量、开通步骤与常见问题，均以手册方式逐条列出。没有夸张的承诺，只有可核对的条目。购买前请通读全文。</p>
+      <div class="cta">
+        <a class="primary" href="#plans">查看套餐档位</a>
+        <a class="ghost" href="#faq">先读常见问题</a>
+      </div>
+    </div>
+    <aside class="panel">
+      <h2>文档摘要 / SUMMARY</h2>
+      <dl>
+        <dt>文档性质</dt><dd>品牌服务说明页</dd>
+        <dt>套餐档位</dt><dd>基础版 / 旗舰版 / 团队版</dd>
+        <dt>计费方式</dt><dd>按月订阅，支持按年付</dd>
+        <dt>起步价格</dt><dd>¥15 / 月</dd>
+        <dt>设备上限</dt><dd>3 至 20 台，按档位区分</dd>
+        <dt>适用读者</dt><dd>首次了解本服务的用户</dd>
+      </dl>
+      <p class="note">本页未列出的参数，表示暂无公开说明。以实际开通页面显示为准。</p>
+    </aside>
+  </div>
+</div>
+
+<main>
+
+<section id="about">
+  <div class="sec-head">
+    <span class="no">01 / ABOUT</span>
+    <h2>服务说明</h2>
+    <p>津叶云采用订阅制，按月度或年度周期计费。以下内容帮助你判断该服务是否符合你的使用场景，请在下单前确认。</p>
+  </div>
+  <div class="cols">
+    <article>
+      <h3>计费逻辑</h3>
+      <p>所有档位均为预付订阅。按月付按自然周期续费；按年付一次性支付十二个月费用，折合单价更低。流量配额在每个计费周期开始时重置，未用完部分不结转。</p>
+    </article>
+    <article>
+      <h3>设备计数</h3>
+      <p>设备数按"同时在线"计算，而非绑定数量。你可以在多台设备上安装客户端，但同时保持连接的台数不得超过所属档位的上限。超出后，最早建立的连接会被断开。</p>
+    </article>
+    <article>
+      <h3>信息边界</h3>
+      <p>本页只陈述已确认的内容。未提及的线路细节、覆盖地区与兼容性参数，表示暂无公开资料，不做推测性描述。如有疑问，请通过工单渠道核实后再购买。</p>
+    </article>
+  </div>
+</section>
+
+<section id="plans">
+  <div class="sec-head">
+    <span class="no">02 / PLANS</span>
+    <h2>套餐档位</h2>
+    <p>三个档位按配额阶梯递进：流量从 100GB 到 1000GB，同时在线设备从 3 台到 20 台。按年付均为月价的十倍，相当于减免两个月费用。</p>
+  </div>
+  <div class="stairs">
+    <article class="tier">
+      <div class="step">Ⅰ</div>
+      <div>
+        <h3>基础版</h3>
+        <p class="price">¥15 / 月<small>按年付 ¥150 / 年</small></p>
+      </div>
+      <ul>
+        <li>每月 100GB 流量</li>
+        <li>3 台设备同时在线</li>
+        <li>解锁基础流媒体</li>
+        <li>普通线路节点池</li>
+      </ul>
+      <span class="none">入门档位</span>
+    </article>
+    <article class="tier">
+      <div class="step">Ⅱ</div>
+      <div>
+        <h3>旗舰版</h3>
+        <p class="price">¥35 / 月<small>按年付 ¥350 / 年</small></p>
+      </div>
+      <ul>
+        <li>每月 300GB 流量</li>
+        <li>5 台设备同时在线</li>
+        <li>全节点原生流媒体解锁</li>
+        <li>IPLC 专线游戏加速优化</li>
+        <li>7×24 优先工单支持</li>
+      </ul>
+      <span class="tag">多数用户选择</span>
+    </article>
+    <article class="tier">
+      <div class="step">Ⅲ</div>
+      <div>
+        <h3>团队版</h3>
+        <p class="price">¥85 / 月<small>按年付 ¥850 / 年</small></p>
+      </div>
+      <ul>
+        <li>每月 1000GB 流量</li>
+        <li>20 台设备同时在线</li>
+        <li>VIP 专属高带宽节点</li>
+        <li>支持企业定制路由</li>
+        <li>专属客户经理服务</li>
+      </ul>
+      <span class="none">多人协作</span>
+    </article>
+  </div>
+</section>
+
+<section id="guide">
+  <div class="sec-head">
+    <span class="no">03 / GUIDE</span>
+    <h2>使用说明</h2>
+    <p>从注册到日常使用，共五个步骤。按顺序执行即可，中途任何一步有疑问，可先查阅文末常见问题。</p>
+  </div>
+  <div class="steps">
+    <article>
+      <div>
+        <h3>注册账户</h3>
+        <p>使用常用邮箱完成注册。注册邮箱同时是工单沟通与账单通知的接收地址，请确保可以正常收信。</p>
+      </div>
+    </article>
+    <article>
+      <div>
+        <h3>选择档位并支付</h3>
+        <p>对照上一节的阶梯表，按每月流量需求与同时在线设备数选择档位。不确定时，建议从基础版开始，后续可按差价升级。</p>
+      </div>
+    </article>
+    <article>
+      <div>
+        <h3>获取订阅信息</h3>
+        <p>支付完成后，在用户中心查看你的订阅链接与配置信息。该信息等同于账户凭证，请勿转发或张贴到公开渠道。</p>
+      </div>
+    </article>
+    <article>
+      <div>
+        <h3>导入客户端</h3>
+        <p>在设备上安装对应的客户端，将订阅信息导入。各平台客户端的选择建议见下一节。导入后先以默认配置连接，确认可用再调整细节。</p>
+      </div>
+    </article>
+    <article>
+      <div>
+        <h3>核对用量</h3>
+        <p>用户中心展示当前周期已用流量与在线设备数。建议在周期过半时核对一次，避免月末流量不足或设备数超限导致断连。</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="clients">
+  <div class="sec-head">
+    <span class="no">04 / CLIENTS</span>
+    <h2>客户端</h2>
+    <p>津叶云通过标准订阅方式接入，不强制使用特定客户端。以下按平台给出选择思路，具体下载地址以各客户端官方发布渠道为准。</p>
+  </div>
+  <div class="clients">
+    <article>
+      <h3>桌面端（Windows / macOS）</h3>
+      <p>桌面平台可选支持订阅导入的通用客户端。安装后在设置中添加订阅链接，更新订阅即可载入节点列表。建议开启"随系统启动"以外的选项保持默认。</p>
+      <p class="hint">提示：桌面端通常占用一台在线设备名额，不用时可断开连接释放配额。</p>
+    </article>
+    <article>
+      <h3>移动端（iOS / Android）</h3>
+      <p>移动平台同样通过订阅链接导入。iOS 用户请使用与你账户地区相符的应用商店获取客户端；Android 用户请从官方渠道下载安装包，避免使用来历不明的修改版本。</p>
+      <p class="hint">提示：移动端建议在设置中关闭后台常驻以外的多余权限，减少电量消耗。</p>
+    </article>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="sec-head">
+    <span class="no">05 / FAQ</span>
+    <h2>常见问题</h2>
+    <p>按主题分为四组：计费与支付、流量与设备、配置与使用、账户与其他。未覆盖的问题请提交工单。</p>
+  </div>
+
+  <div class="faq-group">
+    <h3>A · 计费与支付</h3>
+    <article>
+      <h4>按年付和按月付有什么区别？</h4>
+      <p>服务内容完全相同，区别只在价格与支付周期。按年付为月价的十倍，相当于十二个月减免两个月费用；按月付则每个周期单独续费，灵活性更高。</p>
+    </article>
+    <article>
+      <h4>购买后可以更换档位吗？</h4>
+      <p>可以在用户中心发起升级，按剩余周期折算差价。降级在当前周期结束后生效，已支付部分不退还差额。</p>
+    </article>
+  </div>
+
+  <div class="faq-group">
+    <h3>B · 流量与设备</h3>
+    <article>
+      <h4>流量用完了会怎样？</h4>
+      <p>当前周期流量用尽后，连接会被暂停，直到下一周期配额重置。用户中心可随时查看已用量，建议在周期过半时核对一次。</p>
+    </article>
+    <article>
+      <h4>设备数是怎么计算的？</h4>
+      <p>按同时在线的连接数计算，不按安装数量计算。例如基础版允许 3 台同时在线，你可以在更多设备上安装客户端，但同时连接不得超过 3 台，超出时最早的连接会被断开。</p>
+    </article>
+  </div>
+
+  <div class="faq-group">
+    <h3>C · 配置与使用</h3>
+    <article>
+      <h4>订阅信息在哪里查看？</h4>
+      <p>支付完成后登录用户中心，在订阅管理页面查看订阅链接与配置信息。该信息等同于账户凭证，请勿公开分享。</p>
+    </article>
+    <article>
+      <h4>导入客户端后无法连接怎么办？</h4>
+      <p>按顺序排查：先在客户端内更新一次订阅；再确认当前周期流量未用尽、在线设备未超限；最后切换其他节点重试。三步均无效时，提交工单并附上客户端提示信息。</p>
+    </article>
+  </div>
+
+  <div class="faq-group">
+    <h3>D · 账户与其他</h3>
+    <article>
+      <h4>注册邮箱可以更换吗？</h4>
+      <p>可以。在用户中心的账户设置中提交更换申请，验证新邮箱后生效。更换期间工单通知会发送至新邮箱。</p>
+    </article>
+    <article>
+      <h4>本页没有写到的参数，去哪里确认？</h4>
+      <p>本页只列出已确认的信息。未提及的线路、地区覆盖或兼容性细节，请通过工单渠道咨询，以工单回复为准，不要依据第三方说法下单。</p>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="inner">
+    <span class="fb">津叶<em>云</em> · 服务手册</span>
+    <span>本页内容以说明为目的，未列事项不代表承诺。</span>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
